@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Center from "@/components/Center";
 import ContactRow from "@/components/sections/ContactRow";
-import Link from "next/link";
+import Link from "next/link"; // Import Link from next/link
 
 const StyledFooter = styled.footer`
   background-color:#F6F4ED;
@@ -60,7 +60,9 @@ export default function Footer({categories}) {
               <a href="">Home</a>
               <a href="">Sklep</a>
               <a href="">Kontakt</a>
-              <a href="">Regulamin</a>
+              <Link href="/regulamin">Regulamin</Link> {/* Use Link from next/link */}
+              <Link href="/privacypolicy">Polityka prywatności</Link> {/* Use Link from next/link */}
+
             </nav>
           </div>
           <div>

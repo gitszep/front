@@ -121,7 +121,7 @@ export default function contactPage({categories}) {
       <Hero>
         <ImageProps src="https://alchemy-theme-modern.myshopify.com/cdn/shop/files/Cools-Club_blog_02_Cover.jpg"/>
         <TextParts>
-          <Title>Contact</Title>
+          <Title>Polityka prywatności</Title>
 
         </TextParts>
       </Hero>
